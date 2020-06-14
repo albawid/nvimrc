@@ -4,12 +4,12 @@ if exists('g:plugs["lightline.vim"]')
   let g:lightline = {
         \   'colorscheme': 'oceanicnext',
         \   'active': {
-        \     'left':[ [ 'mode', 'paste' ],
+        \     'left':[[ 'mode', 'paste' ],
         \              [ 'gitstatus' ],
-        \              [ 'readonly', 'fname', 'modified' ], ],
-        \     'right': [ [ 'lineinfo' ],
+        \              [ 'readonly', 'fname', 'modified' ]],
+        \     'right': [[ 'lineinfo' ],
         \              [ 'filetype' ],
-        \              [ 'currentfunction', 'cocstatus', 'fileformat', 'fileencoding' ], ],
+        \              [ 'currentfunction', 'cocstatus', 'fileformat', 'fileencoding' ]],
         \   },
         \   'inactive': {
         \    'left': [ [ 'fname' ], ],
