@@ -14,6 +14,7 @@ Plug 'mengelbrecht/lightline-bufferline'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'Yggdroot/indentLine'
+Plug 'mboughaba/i3config.vim'
 
 "" Utility
 Plug 'editorconfig/editorconfig-vim'

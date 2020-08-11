@@ -22,7 +22,7 @@
   "emmet.includeLanguages": { "vue-html": "html", "javascript": "javascriptreact", "jinja2.html": "html" },
   "emmet.showExpandedAbbreviation": "always",
   "go.goplsOptions": { "usePlaceholders": true, "completeUnimported": true },
-  "highlight.colors.enable": false,
+  "highlight.colors.enable": true,
   "highlight.document.enable": true,
   "html.filetypes": ["html", "handlebars", "jinja2.html", "php"],
   "html.suggest.html5": true,
