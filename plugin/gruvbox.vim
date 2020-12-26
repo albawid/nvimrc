@@ -2,7 +2,7 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 if exists('g:plugs["gruvbox"]')
   let g:gruvbox_bold                 = 1
-  let g:gruvbox_contrast_dark        = 'hard'
+  let g:gruvbox_contrast_dark        = 'soft'
   let g:gruvbox_improved_strings     = 1
   let g:gruvbox_improved_strings     = 1
   let g:gruvbox_improved_warnings    = 1

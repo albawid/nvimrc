@@ -15,6 +15,7 @@ if (has('termguicolors'))
   set termguicolors
 endif
 
+set background=dark
 set backspace=indent,eol,start
 set backup
 set backupdir=~/.local/share/nvim/backup

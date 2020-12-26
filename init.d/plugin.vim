@@ -14,7 +14,6 @@ Plug 'mengelbrecht/lightline-bufferline'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'Yggdroot/indentLine'
-Plug 'mboughaba/i3config.vim'
 
 "" Utility
 Plug 'editorconfig/editorconfig-vim'
@@ -34,6 +33,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
+Plug 'mboughaba/i3config.vim'
+Plug 'psliwka/vim-smoothie'
 
 "" Language pack
 Plug 'honza/vim-snippets'
@@ -45,12 +46,19 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 
 "" Theme
-"Plug 'morhetz/gruvbox'
+Plug 'morhetz/gruvbox'
 Plug 'mhartington/oceanic-next'
 
 "" Icon
 Plug 'ryanoasis/vim-devicons'
 
+"" Note
+Plug 'xolox/vim-notes'
+Plug 'xolox/vim-misc'
+
+"" orgmode
+" Plug 'jceb/vim-orgmode'
+" Plug 'tpope/vim-speeddating'
 "" Initialize plugin system
 call plug#end()
 " }}}
